@@ -75,11 +75,11 @@ const NavBar = () => {
             <div className="md:block hidden">
               <div className="flex items-center">
                 <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[12px] 2xl:p-4 rounded-full mr-3 group duration-300">
-                  <FaTelegramPlane className="text-[25px] text-[#ffcc4c] group-hover:scale-110 duration-300"/>
+                  <FaTelegramPlane className="text-[25px] text-[#ffcc4c] group-hover:scale-110 duration-300" />
                 </a>
 
                 <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[13px] 2xl:p-4 rounded-full group duration-300">
-                  <FaXTwitter className="text-[22px] text-[#ffcc4c] group-hover:scale-110 duration-300"/>
+                  <FaXTwitter className="text-[22px] text-[#ffcc4c] group-hover:scale-110 duration-300" />
                 </a>
               </div>
             </div>
