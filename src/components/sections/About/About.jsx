@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Container>
-        <div className='flex justify-center space-x-10'>
+        <div className='flex justify-center items-center space-x-6'>
           {/* left area  */}
           <div className='w-[50%]'>
             <img src={aboutPhoneImg} alt="" />
