@@ -1,9 +1,14 @@
 import React from 'react';
+import About from '@/components/sections/About/About';
+import Banner from '@/components/sections/Banner/Banner';
+import Features from '@/components/sections/Features/Features';
 
 const Home = () => {
   return (
     <>
-      <h1 className='text-white'>Now paste the home content here</h1>
+      <Banner />
+      <About />
+      <Features />
     </>
   );
 };
