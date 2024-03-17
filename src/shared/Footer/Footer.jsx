@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={moonImg} alt="Image" className='mx-auto'/>
 
           {/* Content */}
-          <div className='flex justify-center md:-mt-[350px] lg:-mt-[390px]'>
+          <div className='flex justify-center -mt-[280px] md:-mt-[350px] lg:-mt-[390px]'>
             <div>
               <img src={logoImg} alt="Image" className='w-[112px] mx-auto' />
               <img src={line1} alt="Image" className='w-[500px] my-6' />
@@ -37,11 +37,11 @@ const Footer = () => {
       {/* All rights reserved */}
       <div className='max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 lg:px-16 md:px-10 sm:px-2 px-4 mt-32 border-t border-[#2f23118f] bg-[#EAE8E1] bg-opacity-[0.002]'>
 
-        <div className=''>
-          <div className='text-[#A5A39B] font-inter flex justify-between py-5'>
+        <div>
+          <div className='text-[#A5A39B] font-inter md:flex justify-between py-5'>
             <p className='capitalize'>©2023 Early Bird. All Rights Reserved.</p>
 
-            <div className='flex gap-x-5'>
+            <div className='flex gap-x-5 mt-3 md:mt-0'>
               <a href="" className='hover:underline'>Privacy</a>
               <a href="" className='hover:underline'>Police</a>
             </div>
