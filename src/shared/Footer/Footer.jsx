@@ -10,10 +10,11 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div style={{ backgroundImage: `url(${moonImg})` }} className='bg-no-repeat bg-cover min-h-[550px]'>
+        <div className=''>
+          <img src={moonImg} alt="Image" className='mx-auto'/>
 
           {/* Content */}
-          <div className='flex justify-center'>
+          <div className='flex justify-center md:-mt-[350px] lg:-mt-[390px]'>
             <div>
               <img src={logoImg} alt="Image" className='w-[112px] mx-auto' />
               <img src={line1} alt="Image" className='w-[500px] my-6' />
@@ -32,11 +33,11 @@ const Footer = () => {
         </div>
 
       </Container >
-      {/* All rights reserved */}
-      <div>
-        <img src={line2} alt="Image" className='w-[500px]' />
 
-        <div className='max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 lg:px-16 md:px-10 sm:px-2 px-4'>
+      {/* All rights reserved */}
+      <div className='max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 lg:px-16 md:px-10 sm:px-2 px-4 mt-32 border-t border-[#2f23118f] bg-[#EAE8E1] bg-opacity-[0.002]'>
+
+        <div className=''>
           <div className='text-[#A5A39B] font-inter flex justify-between py-5'>
             <p className='capitalize'>©2023 Early Bird. All Rights Reserved.</p>
 
