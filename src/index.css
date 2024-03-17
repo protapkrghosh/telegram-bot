@@ -8,6 +8,14 @@ body {
   background-color: #151414;
 }
 
+
+.shadowAbout {
+  mix-blend-mode: lighten;
+  filter: blur(110px);
+}
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

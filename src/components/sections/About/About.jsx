@@ -1,22 +1,17 @@
 import React from 'react';
 import Container from '../Container/Container';
 import aboutLineImg from '@/assets/about/Line 5.png';
-// import aboutLineImg from '@/assets/about/Line 5.png';
-
-// import aboutCir1 from '@/assets/about/Ellipse 31.png';
-// import aboutCir2 from '@/assets/about/Ellipse 32.png';
-// import aboutCir3 from '@/assets/about/Ellipse 33.png';
-// import aboutphone from '@/assets/about/Pixel True Mockup1.png';
+import aboutPhoneImg from '@/assets/about/Group70.png';
 import { FiCheckCircle } from "react-icons/fi";
 
 const About = () => {
   return (
     <>
       <Container>
-        <div>
+        <div className='flex'>
           {/* left area  */}
           <div>
-          
+            <img src={aboutPhoneImg} alt="" />
           </div>
 
           {/* right area  */}
