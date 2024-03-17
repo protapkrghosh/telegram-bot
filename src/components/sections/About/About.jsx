@@ -10,8 +10,11 @@ const About = () => {
       <Container>
         <div className='flex justify-center items-center space-x-6'>
           {/* left area  */}
-          <div className='w-[50%]'>
-            <img src={aboutPhoneImg} alt="" />
+          <div className='w-[50%] relative'>
+            <div className='z-40 relative'>
+              <img src={aboutPhoneImg} alt="" />
+            </div>
+            <div className='h-[268px] w-[268px] bg-[#EA971C] blur-[242px] rounded-[268px] absolute top-80 left-44' />
           </div>
 
           {/* right area  */}
