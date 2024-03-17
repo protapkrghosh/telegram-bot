@@ -22,10 +22,10 @@ const NavBar = () => {
   }
 
   return (
-    <div className={color ? 'sticky bg-[#FFCC4C] top-0 z-50 duration-300 shadow-md py-1' : 'pt-0 duration-300'}>
+    <div className={color ? 'sticky bg-[#151414] top-0 z-50 duration-300 shadow-md py-1' : 'pt-0 duration-300'}>
       <div className="max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
-          <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-7'}`}>
+          <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-5'}`}>
 
             <Link to="/">
               <img src={logo} alt="Logo" className="w-[60px] cursor-pointer mr-3 ml-5 md:ml-0" />
@@ -37,7 +37,7 @@ const NavBar = () => {
               }
             </div>
 
-            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[65px] opacity-100 bg-[#ffcc4c6b]' : 'top-[-490px] border-t border-[#282522]'}`}>
+            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[75px] opacity-100 bg-[#614112] z-10' : 'top-[-490px] navBg'}`}>
 
               <li>
                 <Link to="/" className="text-[#EAE8E1] hover:text-[#FFCC4C] font-inter ml-5 md:ml-4">About</Link>
