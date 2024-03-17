@@ -1,9 +1,10 @@
 import React from 'react';
+import Banner from '@/components/sections/Banner/Banner';
 
 const Home = () => {
   return (
     <>
-      <h1 className='text-white'>Now paste the home content here</h1>
+      <Banner />
     </>
   );
 };
