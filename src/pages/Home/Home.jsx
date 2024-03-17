@@ -1,9 +1,10 @@
+import About from '@/components/sections/About/About';
 import React from 'react';
 
 const Home = () => {
   return (
     <>
-      <h1 className='text-white'>Now paste the home content</h1>
+      <About />
     </>
   );
 };
