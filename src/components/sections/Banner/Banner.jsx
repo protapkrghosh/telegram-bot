@@ -29,12 +29,12 @@ const Banner = () => {
 
         <div className="absolute w-full h-full bg-[#151414] bg-opacity-40">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10">
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10 2xl:mt-16">
               <div className="bgDropShadow w-fit p-8">
-                <h1 className="text-white text-[57px] lg:text-[75px] 2xl:text-[80px] font-manrope font-semibold">Early Bird</h1>
+                <h1 className="text-white text-[50px] md:text-[57px] lg:text-[75px] 2xl:text-[80px] font-manrope font-semibold">Early Bird</h1>
                 <p className="text-[#BBB9AF] text-[21px] lg:text-[25px] 2xl:text-[32px] font-inter mb-5">Get the information you <br /> need, fast.</p>
 
-                <Button className="text-[#151414] rounded-[8px] group cursor-pointer px-5">
+                <Button className="text-[#151414] rounded-[8px] group cursor-pointer md:px-5">
                   <span className="flex justify-center items-center">
                     <p className='text-[16px] 2xl:text-[18px] font-inter'>Launch App</p>
                     <MdArrowOutward className='text-[18px] ml-2 group-hover:-mt-2 duration-300' />
@@ -43,7 +43,7 @@ const Banner = () => {
               </div>
 
               {/* Image */}
-              <img src={img} alt="Image" className="w-[400px] lg:w-[450px] xl:w-[500px] 2xl:w-[550px] md:-mr-14 lg:-mr-16 2xl:-mr-20" />
+              <img src={img} alt="Image" className="scale-110 md:scale-100 w-[255px] md:w-[320px] lg:w-[450px] xl:w-[500px] 2xl:w-[550px] md:-mr-14 lg:-mr-16 2xl:-mr-20" />
             </div>
           </Container>
         </div>
