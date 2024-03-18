@@ -14,7 +14,9 @@ const Features = () => {
 
           {/* card section  */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-[30px]'>
-            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden'>
+            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden' data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
 
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
@@ -24,7 +26,9 @@ const Features = () => {
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
             </div>
 
-            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden'>
+            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden' data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
 
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
@@ -34,7 +38,9 @@ const Features = () => {
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Did the launch have tax? How much money did the tax wallet receive?</p>
             </div>
 
-            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden'>
+            <div className='px-[30px] pt-[30px] bg-[#201B15] border border-[#3d2d1a] rounded-[30px] relative overflow-hidden' data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000">
 
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
