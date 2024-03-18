@@ -6,22 +6,27 @@ const Tokenomics = () => {
   return (
     <div className='my-20 xl:my-36' id='tokenomics'>
       <Container>
-        <div className='bg-gradient-to-r from-[#201B15] to-[#1B1915] border border-[#28221E] rounded-[20px] px-20 xl:px-24 py-14 xl:py-16'>
-          {/*  token title   */}
+        <div className='bg-gradient-to-r from-[#201B15] to-[#1B1915] border border-[#28221E] rounded-[20px] px-5 md:px-10 lg:px-20 xl:px-24 py-10 md:py-14 xl:py-16 relative'>
+
+          {/* Shadow */}
+          <div className='w-[500px] lg:h-[200px] xl:h-[300px] tokenShadowTop absolute top-0 left-72' />
+          <div className='w-[500px] lg:h-[60px] xl:h-[100px] tokenShadowBottom absolute bottom-0 left-72' />
+
+          {/*  Tokenomics header   */}
           <div>
             <h2 className='text-[#EAE8E1] text-center font-manrope text-[47px] font-bold mb-[13px]'>Tokenomics</h2>
-            <p className='text-[#A5A39B] text-center font-inter text-[17px] 2xl:text-[18px] w-[72%] mx-auto'>Tokenomics involves designing incentives and mechanisms to govern the distribution and use of digital tokens within a system.</p>
+            <p className='text-[#A5A39B] text-center font-inter text-[17px] 2xl:text-[18px] w-full lg:w-[90%] xl:w-[72%] 2xl:w-[59%] mx-auto'>Tokenomics involves designing incentives and mechanisms to govern the distribution and use of digital tokens within a system.</p>
           </div>
 
           {/* Card content area */}
-          <div className='mt-[60px] flex items-center'>
+          <div className='mt-[60px] md:flex items-center'>
             {/* Circle */}
             <div className='md:w-1/2'>
-              <img src={circleImg} alt="Image" className='w-[390px]' />
+              <img src={circleImg} alt="Image" className='w-[280px] lg:w-[320px] xl:w-[390px] mx-auto md:mx-0' />
             </div>
 
             {/* Counter  */}
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 mt-16 md:mt-0'>
               {/* Total supply */}
               <div className='bg-[#22201a] px-4 py-3 rounded-[10px]'>
                 <div className='flex items-center relative mb-3'>
@@ -52,8 +57,8 @@ const Tokenomics = () => {
 
               {/* Development */}
               <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5'>
-                <div className='flex items-center relative mb-3'>
-                  <div className='w-4 h-4 bg-[#AD2ADD] rounded-full' />
+                <div className='flex items-start lg:items-center relative mb-3'>
+                  <div className='w-4 h-4 bg-[#AD2ADD] rounded-full mt-[5px]' />
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#AD2ADD] opacity-45 -ml-[2px]" />
                   <p className='text-[#A5A39B] font-inter ml-2'>Development, marketing & team fees</p>
                 </div>
