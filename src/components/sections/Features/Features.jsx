@@ -10,8 +10,18 @@ const Features = () => {
           {/* title part  */}
           <h2 className='mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
           {/* card section  */}
-          <div>
-            <div>
+          <div className='grid grid-cols-3 gap-[30px]'>
+            <div className='border'>
+              <img className='mb-[30px]' src={featuresIcon1} alt="" />
+              <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Block analysis</p>
+              <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
+            </div>
+            <div className='border'>
+              <img className='mb-[30px]' src={featuresIcon1} alt="" />
+              <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Block analysis</p>
+              <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
+            </div>
+            <div className='border'>
               <img className='mb-[30px]' src={featuresIcon1} alt="" />
               <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Block analysis</p>
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
