@@ -39,7 +39,15 @@ const Tokenomics = () => {
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#FB3C94] opacity-45 -ml-[2px]" />
                   <p className='text-[#A5A39B] font-inter ml-2'>Circulating supply</p>
                 </div>
-                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>700,000,000</p>
+                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>
+                  <CountUp
+                    start={0}
+                    end={7}
+                    duration={5}
+                    separator=" "
+                    suffix="00,000,000"
+                  />
+                </p>
               </div>
 
               {/* Development */}
