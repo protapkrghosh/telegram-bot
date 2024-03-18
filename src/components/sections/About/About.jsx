@@ -6,7 +6,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 const About = () => {
   return (
-    <>
+    <div id='about'>
       <Container>
         <div className='md:flex-none lg:flex xl:flex 2xl:flex justify-center items-center space-x-6'>
           {/* left area  */}
@@ -39,7 +39,7 @@ const About = () => {
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

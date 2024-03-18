@@ -15,7 +15,7 @@ const Appreciate = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden relative lg:h-[520px] xl:h-[600px] mt-20">
+    <div className="overflow-hidden relative lg:h-[520px] xl:h-[600px] mt-20" id="appreciate">
       <div className="overflow-hidden flex justify-center items-center relative">
         {/* video */}
         <div>
