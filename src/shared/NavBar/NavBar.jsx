@@ -26,7 +26,7 @@ const NavBar = () => {
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-5'}`}>
 
-            <Link to="">
+            <Link to="home" smooth={true} offset={-300} duration={600}>
               <img src={logo} alt="Logo" className="w-[60px] cursor-pointer mr-3 ml-5 md:ml-0" />
             </Link>
 
@@ -47,7 +47,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={-30} duration={600} className="text-[#EAE8E1] hover:text-[#FFCC4C] font-inter duration-300 cursor-pointer">Tokenomics</Link>
+                <Link to="tokenomics" smooth={true} offset={-120} duration={600} className="text-[#EAE8E1] hover:text-[#FFCC4C] font-inter duration-300 cursor-pointer">Tokenomics</Link>
               </li>
 
               <li>
