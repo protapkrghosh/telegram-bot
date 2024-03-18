@@ -1,5 +1,6 @@
 import circleImg from '@/assets/tokenomics/Group 29.png';
 import Container from '../Container/Container';
+import CountUp from 'react-countup';
 
 const Tokenomics = () => {
   return (
@@ -48,7 +49,16 @@ const Tokenomics = () => {
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#AD2ADD] opacity-45 -ml-[2px]" />
                   <p className='text-[#A5A39B] font-inter ml-2'>Development, marketing & team fees</p>
                 </div>
-                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>05%</p>
+                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>
+                  <CountUp
+                    start={0}
+                    end={5}
+                    duration={5}
+                    separator=" "
+                    prefix="0"
+                    suffix="%"
+                  />
+                </p>
               </div>
             </div>
           </div>
