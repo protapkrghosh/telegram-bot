@@ -14,7 +14,7 @@ const About = () => {
             <div className='z-40 relative'>
               <img src={aboutPhoneImg} alt="" />
             </div>
-            <div className='lg:h-[150px] xl:h-[268px] lg:w-[150px] xl:w-[268px] bg-[#EA971C] blur-[242px] rounded-[268px] absolute top-80 left-44' />
+            <div className='lg:h-[150px] xl:h-[268px] lg:w-[150px] xl:w-[268px] bg-[#EA971C] blur-[242px] rounded-[268px] absolute top-60 left-44' />
           </div>
 
           {/* right area  */}
