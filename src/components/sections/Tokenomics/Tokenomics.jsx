@@ -19,7 +19,9 @@ const Tokenomics = () => {
 
               </div>
               {/* right section  */}
-              <div></div>
+              <div>
+
+              </div>
             </div>
           </div>
         </div>
