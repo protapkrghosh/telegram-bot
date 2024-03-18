@@ -6,7 +6,7 @@ const Features = () => {
     <>
       <Container>
         <div>
-          <h2 className='mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features</h2>
+          <h2 className='mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
         </div>
       </Container>
     </>
