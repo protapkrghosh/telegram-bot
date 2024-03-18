@@ -10,7 +10,7 @@ const Features = () => {
       <Container>
         <div>
           {/* title part  */}
-          <h2 className='mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
+          <h2 className='mt-[90px] mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
           {/* card section  */}
           <div className='grid grid-cols-3 gap-[30px]'>
             <div className='px-[30px] pt-[30px] border-2 border-[#201B15] rounded-[30px]'>
