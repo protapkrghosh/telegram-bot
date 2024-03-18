@@ -8,6 +8,7 @@ const Tokenomics = () => {
         <div>
           <div>
 
+
           </div>
         </div>
       </Container>
