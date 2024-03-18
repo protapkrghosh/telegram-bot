@@ -14,7 +14,12 @@ const Tokenomics = () => {
             </div>
             {/* circle  */}
             <div className='mt-[60px]'>
+              {/* left section */}
+              <div>
 
+              </div>
+              {/* right section  */}
+              <div></div>
             </div>
           </div>
         </div>
