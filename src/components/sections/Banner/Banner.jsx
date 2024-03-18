@@ -4,6 +4,7 @@ import Container from "../Container/Container";
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
 import img from '@/assets/banner/group69.png'
+
 const Banner = () => {
   const vidRef = useRef();
 
@@ -14,7 +15,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="heroBg overflow-hidden relative">
+    <div className="overflow-hidden relative">
       <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
         <div className="w-full h-[80vh] md:h-dvh">
