@@ -13,15 +13,43 @@ const Tokenomics = () => {
           </div>
 
           {/* Card content area */}
-          <div className='mt-[60px]'>
+          <div className='mt-[60px] flex items-center'>
             {/* Circle */}
-            <div>
+            <div className='md:w-1/2'>
               <img src={circleImg} alt="Image" className='w-[390px]' />
             </div>
 
             {/* Counter  */}
-            <div>
+            <div className='md:w-1/2'>
+              {/* Total supply */}
+              <div className='bg-[#22201a] px-4 py-3 rounded-[10px]'>
+                <div className='flex items-center relative mb-3'>
+                  <div className='w-4 h-4 bg-[#FFCC4C] rounded-full' />
+                  <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#FFCC4C] opacity-45 -ml-[2px]" />
+                  <p className='text-[#A5A39B] font-inter ml-2'>Total Supply</p>
+                </div>
+                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>1,000,000,000</p>
+              </div>
 
+              {/* Circulating supply */}
+              <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5'>
+                <div className='flex items-center relative mb-3'>
+                  <div className='w-4 h-4 bg-[#FB3C94] rounded-full' />
+                  <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#FB3C94] opacity-45 -ml-[2px]" />
+                  <p className='text-[#A5A39B] font-inter ml-2'>Circulating supply</p>
+                </div>
+                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>700,000,000</p>
+              </div>
+
+              {/* Development */}
+              <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5'>
+                <div className='flex items-center relative mb-3'>
+                  <div className='w-4 h-4 bg-[#AD2ADD] rounded-full' />
+                  <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#AD2ADD] opacity-45 -ml-[2px]" />
+                  <p className='text-[#A5A39B] font-inter ml-2'>Development, marketing & team fees</p>
+                </div>
+                <p className='text-[#EAE8E1] text-[30px] font-semibold font-manrope'>05%</p>
+              </div>
             </div>
           </div>
         </div>
