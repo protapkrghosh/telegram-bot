@@ -17,7 +17,7 @@ const About = () => {
             <div className='lg:h-[150px] xl:h-[268px] lg:w-[150px] xl:w-[268px] bg-[#EA971C] blur-[242px] rounded-[268px] absolute top-60 left-44' />
           </div>
 
-          {/* right area  */}
+          {/*  right area  */}
           <div className='w-[100%] md:w-[75%]'>
             <div className='w-[70%] md:w-[85%]'>
               <h2 className='text-[#FFF] font-manrope text-[47px] font-bold' data-aos="fade-down"
