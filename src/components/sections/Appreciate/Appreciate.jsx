@@ -1,8 +1,6 @@
 import { useEffect, useRef } from "react";
-import videoBg from "@/assets/videos/Gold.mp4"
+import videoBg from "@/assets/videos/last.mp4"
 import Container from "../Container/Container";
-import { Button } from "@/components/ui/button";
-import { MdArrowOutward } from "react-icons/md";
 import img from '@/assets/ideas/imageremovebg.png'
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -17,12 +15,12 @@ const Appreciate = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden relative">
-      <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
+    <div className="overflow-hidden relative lg:h-[520px] xl:h-[600px] mt-20">
+      <div className="overflow-hidden flex justify-center items-center relative">
         {/* video */}
-        <div className="w-full h-[80vh] md:h-dvh">
+        <div>
           <video
-            className="w-full h-full object-fill md:object-cover"
+            className="h-[1280px] md:h-auto 2xl:-mt-14"
             muted
             autoPlay
             loop
@@ -30,12 +28,12 @@ const Appreciate = () => {
           ></video>
         </div>
 
-        <div className="absolute w-full h-full bg-[#151414] bg-opacity-40">
+        <div className="absolute w-full h-full bg-[#151414] bg-opacity-40 2xl:-mt-10">
           <Container>
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10 2xl:mt-16">
-              <div className="">
+              <div className="mt-8 md:mt-0">
                 <h1 className="text-[#EAE8E1] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]">We would greatly <br /> appreciate hearing <br /> your ideas.</h1>
-                
+
                 <p className="text-[#EAE8E1] text-[18px] font-inter mt-4 mb-8">We eagerly await your valuable insight</p>
 
                 {/* Custom Button */}
@@ -51,7 +49,7 @@ const Appreciate = () => {
               </div>
 
               {/* Image */}
-              <img src={img} alt="Image" className="scale-110 md:scale-100 w-[200px] lg:w-[250px] xl:w-[295px] 2xl:w-[300px]" />
+              <img src={img} alt="Image" className="scale-110 md:scale-100 w-[200px] md:w-[200px] lg:w-[250px] xl:w-[295px] 2xl:w-[300px]" />
             </div>
           </Container>
         </div>
