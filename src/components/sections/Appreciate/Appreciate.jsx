@@ -32,12 +32,16 @@ const Appreciate = () => {
           <Container>
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10 2xl:mt-16">
               <div className="mt-8 md:mt-0">
-                <h1 className="text-[#EAE8E1] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]">We would greatly <br /> appreciate hearing <br /> your ideas.</h1>
+                <h1 className="text-[#EAE8E1] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]" data-aos="fade-up"
+                  data-aos-duration="3000">We would greatly <br /> appreciate hearing <br /> your ideas.</h1>
 
-                <p className="text-[#EAE8E1] text-[18px] font-inter mt-4 mb-8">We eagerly await your valuable insight</p>
+                <p className="text-[#EAE8E1] text-[18px] font-inter mt-4 mb-8" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">We eagerly await your valuable insight</p>
 
                 {/* Custom Button */}
-                <div className="flex items-center">
+                <div className="flex items-center" data-aos="fade-up"
+                  data-aos-duration="3000">
                   <a href="#" className="border border-[#3e3f3d] bg-[#383937a2] hover:bg-[#434642] p-[12px] 2xl:p-4 rounded-full mr-3 group duration-300">
                     <FaTelegramPlane className="text-[25px] text-[#FFFFFF] group-hover:scale-110 duration-300" />
                   </a>
