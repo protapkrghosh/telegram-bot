@@ -11,20 +11,26 @@ const Footer = () => {
     <div className='mt-24' id='docs'>
       <Container>
         <div>
-          <img src={moonImg} alt="Image" className='mx-auto'/>
+          <img src={moonImg} alt="Image" className='mx-auto' data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000" />
 
           {/* Content */}
           <div className='flex justify-center -mt-[280px] md:-mt-[350px] lg:-mt-[390px]'>
             <div>
-              <img src={logoImg} alt="Image" className='w-[112px] mx-auto' />
+              <img src={logoImg} alt="Image" className='w-[112px] mx-auto' data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" />
               <img src={line1} alt="Image" className='w-[500px] my-6' />
 
               <div className="flex justify-center items-center">
-                <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[12px] 2xl:p-4 rounded-full mr-3 group duration-300">
+                <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[12px] 2xl:p-4 rounded-full mr-3 group duration-300" data-aos="fade-up"
+                  data-aos-duration="2000">
                   <FaTelegramPlane className="text-[25px] text-[#ffcc4c] group-hover:scale-110 duration-300" />
                 </a>
 
-                <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[13px] 2xl:p-4 rounded-full group duration-300">
+                <a href="#" className="border border-[#FFCC4C] hover:bg-[#ffcc4c2d] p-[13px] 2xl:p-4 rounded-full group duration-300" data-aos="fade-up"
+                  data-aos-duration="2000">
                   <FaXTwitter className="text-[22px] text-[#ffcc4c] group-hover:scale-110 duration-300" />
                 </a>
               </div>
