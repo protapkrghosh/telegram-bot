@@ -11,7 +11,7 @@ const Features = () => {
           <h2 className='mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
           {/* card section  */}
           <div className='grid grid-cols-3 gap-[30px]'>
-            <div className='border'>
+            <div className='px-[30px] pt-[30px] border-2 border-[#201B15] rounded-[30px]'>
               <img className='mb-[30px]' src={featuresIcon1} alt="" />
               <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Block analysis</p>
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
