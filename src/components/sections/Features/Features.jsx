@@ -6,7 +6,7 @@ import featuresIcon3 from '@/assets/features/Group66.png';
 
 const Features = () => {
   return (
-    <>
+    <div id='features'>
       <Container>
         <div>
           {/* title part  */}
@@ -46,7 +46,7 @@ const Features = () => {
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
