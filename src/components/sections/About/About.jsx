@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div id='about'>
       <Container>
-        <div className='md:flex-none lg:flex xl:flex 2xl:flex justify-center items-center space-x-6'>
+        <div className='md:flex-none lg:flex xl:flex 2xl:flex justify-center items-center space-x-6 lg:mt-[100px] xl:mt-[100px] 2xl:mt-[100px]'>
           {/* left area  */}
           <div className='w-[90%] md:w-[75%] relative'>
             <div className='z-40 relative' data-aos="fade-up" data-aos-duration="2500">

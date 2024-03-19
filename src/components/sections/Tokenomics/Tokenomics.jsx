@@ -6,7 +6,7 @@ const Tokenomics = () => {
   return (
     <div className='my-20 xl:my-36' id='tokenomics'>
       <Container>
-        <div className='bg-gradient-to-r from-[#201B15] to-[#1B1915] border border-[#28221E] rounded-[20px] px-5 md:px-10 lg:px-20 xl:px-24 py-10 md:py-14 xl:py-16 relative'>
+        <div className='bg-gradient-to-r from-[#201B15] to-[#1B1915] border border-[#28221E] rounded-[20px] px-5 md:px-10 lg:px-20 xl:px-24 py-10 md:py-14 xl:py-16 relative overflow-hidden'>
 
           {/* Shadow */}
           <div className='w-[500px] lg:h-[200px] xl:h-[300px] tokenShadowTop absolute top-0 left-72' />
