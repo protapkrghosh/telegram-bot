@@ -44,7 +44,7 @@ const Banner = () => {
               </div>
 
               {/* Image */}
-              <img src={img} alt="Image" className="scale-110 md:scale-100 w-[255px] md:w-[320px] lg:w-[450px] xl:w-[500px] 2xl:w-[550px] md:-mr-14 lg:-mr-16 2xl:-mr-20" />
+              <img src={img} alt="Image" className="scale-110 md:scale-100 w-[255px] md:w-[320px] lg:w-[450px] xl:w-[500px] 2xl:w-[550px] md:-mr-14 lg:-mr-16 2xl:-mr-20 2xl:mt-[20px]" />
             </div>
           </Container>
         </div>
