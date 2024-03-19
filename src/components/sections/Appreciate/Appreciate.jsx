@@ -32,7 +32,7 @@ const Appreciate = () => {
           <Container>
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10 2xl:mt-16">
               <div className="mt-8 md:mt-0">
-                <h1 className="text-[#EAE8E1] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]" data-aos="fade-up"
+                <h1 className="text-[#ffffff] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]" data-aos="fade-up"
                   data-aos-duration="3000">We would greatly <br /> appreciate hearing <br /> your ideas.</h1>
 
                 <p className="text-[#EAE8E1] text-[18px] font-inter mt-4 mb-8" data-aos="fade-down"
