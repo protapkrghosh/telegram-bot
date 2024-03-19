@@ -24,7 +24,8 @@ const Appreciate = () => {
             muted
             autoPlay
             loop
-            src={videoBg}
+            src='https://res.cloudinary.com/dyzbg4knq/video/upload/v1710883342/ue7gcmhaa5nhlxtmzk3y.mp4'
+          // src={videoBg}
           ></video>
         </div>
 
