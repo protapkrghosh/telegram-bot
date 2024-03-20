@@ -1,7 +1,6 @@
 import moonImg from '@/assets/footer/Ellipse1.png';
 import logoImg from '@/assets/footer/image.png';
 import line1 from '@/assets/footer/Line1.png';
-import line2 from '@/assets/footer/Line2.png';
 import Container from '@/components/sections/Container/Container';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
@@ -11,15 +10,13 @@ const Footer = () => {
     <div className='mt-24' id='docs'>
       <Container>
         <div>
-          <img src={moonImg} alt="Image" className='mx-auto' data-aos="fade-down"
-            data-aos-easing="linear"
+          <img src={moonImg} alt="Image" className='mx-auto' data-aos="fade-up"
             data-aos-duration="1000" />
 
           {/* Content */}
           <div className='flex justify-center -mt-[280px] md:-mt-[350px] lg:-mt-[390px]'>
             <div>
-              <img src={logoImg} alt="Image" className='w-[112px] mx-auto' data-aos="fade-down"
-                data-aos-easing="linear"
+              <img src={logoImg} alt="Image" className='w-[112px] mx-auto' data-aos="fade-up"
                 data-aos-duration="1500" />
               <img src={line1} alt="Image" className='w-[500px] my-6' />
 
