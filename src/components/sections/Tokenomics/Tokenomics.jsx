@@ -20,7 +20,7 @@ const Tokenomics = () => {
               data-aos-duration="1300">Tokenomics involves designing incentives and mechanisms to govern the distribution and use of digital tokens within a system.</p>
           </div>
 
-          {/* Card content area */}
+          {/*  Card content area  */}
           <div className='mt-[60px] md:flex items-center'>
             {/* Circle */}
             <div className='md:w-1/2'>
