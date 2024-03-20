@@ -10,7 +10,8 @@ const Features = () => {
       <Container>
         <div>
           {/* title part  */}
-          <h2 className='mt-[90px] mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]'>Key Features </h2>
+          <h2 className='mt-[90px] mb-[60px] text-[#EAE8E1] font-manrope text-[47px] font-bold leading-[54.05px]' data-aos="fade-up"
+                data-aos-duration="2000">Key Features </h2>
 
           {/* card section  */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-[30px]'>

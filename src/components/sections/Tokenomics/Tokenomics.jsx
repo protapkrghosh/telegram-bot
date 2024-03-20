@@ -14,11 +14,10 @@ const Tokenomics = () => {
 
           {/*  Tokenomics header   */}
           <div>
-            <h2 className='text-[#EAE8E1] text-center font-manrope text-[47px] font-bold mb-[13px]' data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1000">Tokenomics</h2>
+            <h2 className='text-[#EAE8E1] text-center font-manrope text-[47px] font-bold mb-[13px]' data-aos="fade-up"
+              data-aos-duration="800">Tokenomics</h2>
             <p className='text-[#A5A39B] text-center font-inter text-[17px] 2xl:text-[18px] w-full lg:w-[90%] xl:w-[72%] 2xl:w-[59%] mx-auto' data-aos="fade-up"
-              data-aos-duration="2000">Tokenomics involves designing incentives and mechanisms to govern the distribution and use of digital tokens within a system.</p>
+              data-aos-duration="1300">Tokenomics involves designing incentives and mechanisms to govern the distribution and use of digital tokens within a system.</p>
           </div>
 
           {/* Card content area */}
@@ -32,9 +31,8 @@ const Tokenomics = () => {
             {/* Counter  */}
             <div className='md:w-1/2 mt-16 md:mt-0'>
               {/* Total supply */}
-              <div className='bg-[#22201a] px-4 py-3 rounded-[10px]' data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000">
+              <div className='bg-[#22201a] px-4 py-3 rounded-[10px]' data-aos="fade-up"
+                data-aos-duration="1500">
                 <div className='flex items-center relative mb-3'>
                   <div className='w-4 h-4 bg-[#FFCC4C] rounded-full' />
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#FFCC4C] opacity-45 -ml-[2px]" />
@@ -45,7 +43,7 @@ const Tokenomics = () => {
 
               {/* Circulating supply */}
               <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5' data-aos="fade-up"
-                data-aos-duration="3000">
+                data-aos-duration="1800">
                 <div className='flex items-center relative mb-3'>
                   <div className='w-4 h-4 bg-[#FB3C94] rounded-full' />
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#FB3C94] opacity-45 -ml-[2px]" />
@@ -63,9 +61,8 @@ const Tokenomics = () => {
               </div>
 
               {/* Development */}
-              <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5' data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="2000">
+              <div className='bg-[#22201a] px-4 py-3 rounded-[10px] my-5' data-aos="fade-up"
+                data-aos-duration="2100">
                 <div className='flex items-start lg:items-center relative mb-3'>
                   <div className='w-4 h-4 bg-[#AD2ADD] rounded-full mt-[5px]' />
                   <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-[#AD2ADD] opacity-45 -ml-[2px]" />
