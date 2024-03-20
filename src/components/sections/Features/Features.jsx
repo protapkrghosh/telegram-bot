@@ -22,7 +22,7 @@ const Features = () => {
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
 
-              <img className='mb-[30px] mix-blend-screen' src={featuresIcon1} alt="" />
+              <img className='mb-[30px] mix-blend-screen' src={featuresIcon1} alt="image" />
               <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Block analysis</p>
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Was the launch bundled? Who was first? How much did they bribe?</p>
             </div>
@@ -34,7 +34,7 @@ const Features = () => {
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
 
-              <img className='mb-[30px] mix-blend-screen' src={featuresIcon2} alt="" />
+              <img className='mb-[30px] mix-blend-screen' src={featuresIcon2} alt="image" />
               <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Tax inspector</p>
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Did the launch have tax? How much money did the tax wallet receive?</p>
             </div>
@@ -46,7 +46,7 @@ const Features = () => {
               {/* Shadow */}
               <div className='w-[281px] h-[80px] lg:h-[120px] cardShadow absolute bottom-0' />
 
-              <img className='mb-[30px] mix-blend-screen' src={featuresIcon3} alt="" />
+              <img className='mb-[30px] mix-blend-screen' src={featuresIcon3} alt="image" />
               <p className='mb-[16px] text-[#EAE8E1] font-manrope text-[26px] font-bold leading-[36.4px]'>Insider tracker</p>
               <p className='mb-[30px] text-[#A5A39B] font-inter leading-[25.6px]'>Enter a list of addresses to cross reference tokens they all bought.</p>
             </div>
