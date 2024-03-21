@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 // import videoBg from "@/assets/videos/Gold.mp4"
-import videoBg from "@/assets/videos/first.mp4"
+// import videoBg from "@/assets/videos/first.mp4"
 import Container from "../Container/Container";
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
