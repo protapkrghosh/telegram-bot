@@ -9,9 +9,10 @@ body {
 }
 
 /* About */
-.shadowAbout {
-  mix-blend-mode: lighten;
-  filter: blur(110px);
+.aboutShadow {
+  border-radius: 268px;
+  background: #EA971C;
+  filter: blur(242px);
 }
 
 /* Navbar */

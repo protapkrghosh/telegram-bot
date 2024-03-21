@@ -14,7 +14,9 @@ const About = () => {
             <div className='z-40 relative' data-aos="fade-up" data-aos-duration="2500">
               <img src={aboutPhoneImg} alt="image" />
             </div>
-            <div className='lg:h-[150px] xl:h-[268px] lg:w-[150px] xl:w-[268px] bg-[#EA971C] blur-[242px] rounded-[268px] absolute top-60 left-44' />
+            {/* aboutShadow */}
+            <div className='absolute aboutShadow 2xl:w-[250px] xl:w-[250px] lg:w-[250px] md:w-[240px] w-[240px] 2xl:h-[250px] xl:h-[250px] lg:h-[250px] md:h-[240px] h-[240px] 2xl:top-[200px] xl:top-[200px] lg:top-[170px] md:top-[160px] top-[110px] 2xl:left-[100px] xl:left-[100px] lg:left-[80px] md:left-[80px] left-[70px]' />
+
           </div>
 
           {/*  right area  */}
