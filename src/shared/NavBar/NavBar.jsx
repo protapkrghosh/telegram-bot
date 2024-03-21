@@ -27,16 +27,16 @@ const NavBar = () => {
           <div className='md:flex justify-between items-center py-5'>
 
             <Link to="home" smooth={true} offset={-300} duration={600}>
-              <img src={logo} alt="Logo" className="w-[60px] cursor-pointer mr-3 ml-5 md:ml-0" />
+              <img src={logo} alt="Logo" className="w-[60px] cursor-pointer mt-3 md:mt-0 mr-3 ml-5 md:ml-0" />
             </Link>
 
             <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
               {
-                open ? <IoClose className="text-[#dab558]" /> : <IoMenu className="text-[#dab558]" />
+                open ? <IoClose className="text-[#dab558] mt-5 md:mt-0" /> : <IoMenu className="text-[#dab558] mt-5 md:mt-0" />
               }
             </div>
 
-            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[75px] opacity-100 bg-[#614112] z-10' : 'top-[-490px] navBg'}`}>
+            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[87px] opacity-100 bg-[#614112] z-10' : 'top-[-490px] navBg'}`}>
 
               <li>
                 <Link to="about" smooth={true} offset={-30} duration={600} className="text-[#EAE8E1] hover:text-[#FFCC4C] font-inter ml-5 md:ml-4 cursor-pointer">About</Link>
