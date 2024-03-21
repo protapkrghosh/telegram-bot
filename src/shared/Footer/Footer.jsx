@@ -7,7 +7,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <div className='mt-24' id='docs'>
+    <div className='-mt-72 md:mt-24' id='docs'>
       <Container>
         <div>
           <img src={moonImg} alt="Image" className='mx-auto' data-aos="fade-up"

@@ -31,9 +31,9 @@ const Appreciate = () => {
           ></video>
         </div>
 
-        <div className="absolute w-full h-full bg-[#151414] bg-opacity-40 2xl:-mt-10">
+        <div className="absolute w-full h-[52vh] md:h-full bg-[#151414] bg-opacity-40 2xl:-mt-10">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-10 2xl:mt-16">
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 -mt-[360px] md:mt-10 2xl:mt-16">
               <div className="mt-8 md:mt-0">
                 <h1 className="text-[#ffffff] text-[40px] lg:text-[45px] 2xl:text-[47px] font-manrope font-semibold leading-[55px]" data-aos="fade-up"
                   data-aos-duration="1000">We would greatly <br /> appreciate hearing <br /> your ideas.</h1>
