@@ -15,7 +15,7 @@ const About = () => {
               <img src={aboutPhoneImg} alt="image" />
             </div>
             {/* aboutShadow */}
-            
+            <div className='absolute aboutShadow 2xl:w-[250px] xl:w-[250px] lg:w-[250px] 2xl:h-[250px] xl:h-[250px] lg:h-[250px] 2xl:top-[200px] xl:top-[200px] 2xl:left-[100px] xl:left-[100px]' />
 
           </div>
 

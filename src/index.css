@@ -9,7 +9,7 @@ body {
 }
 
 /* About */
-.shadowAbout {
+.aboutShadow {
   border-radius: 268px;
   background: #EA971C;
   filter: blur(242px);
