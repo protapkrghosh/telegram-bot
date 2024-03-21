@@ -18,7 +18,9 @@ const Appreciate = () => {
     <div className="overflow-hidden relative lg:h-[520px] xl:h-[600px]" id="appreciate">
       <div className="overflow-hidden flex justify-center items-center relative">
         {/* video */}
-        <div>
+        <div className="relative">
+          <div className="w-full h-[2px] bg-[#2c281e] absolute top-0" />
+          <div className="w-full h-[2px] bg-[#2c281e] absolute bottom-[517px] md:bottom-[0px] lg:bottom-[57px] xl:bottom-[160px] 2xl:bottom-[424px]" />
           <video
             className="h-[1280px] md:h-auto 2xl:-mt-14"
             muted
