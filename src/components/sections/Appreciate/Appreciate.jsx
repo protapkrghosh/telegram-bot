@@ -20,7 +20,7 @@ const Appreciate = () => {
         {/* video */}
         <div className="relative">
           <div className="w-full h-[2px] bg-[#2c281e] absolute top-0" />
-          <div className="w-full h-[2px] bg-[#2c281e] absolute bottom-[517px] md:bottom-[0px] lg:bottom-[57px] xl:bottom-[160px] 2xl:bottom-[424px]" />
+          <div className="w-full h-[2px] bg-[#2c281e] absolute bottom-[517px] md:bottom-[0px] lg:bottom-[57px] xl:bottom-[160px] 2xl:bottom-[415px]" />
           <video
             className="h-[1280px] md:h-auto 2xl:-mt-14"
             muted
