@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-
+import banner from '@/assets/videos/recordVideo.mp4'
 
 const Banner = () => {
 
@@ -19,8 +19,8 @@ const Banner = () => {
         muted
         autoPlay
         loop
-        src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711101136/aukpsdyixdeshcndipb8.mp4'
-      // src={videoBg}
+        // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711101136/aukpsdyixdeshcndipb8.mp4'
+        src={banner}
       ></video>
     </div>
   );
