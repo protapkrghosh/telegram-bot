@@ -32,7 +32,7 @@ const Banner = () => {
         {/* Banner contents */}
         <div className="absolute w-full h-full bg-[#151414] bg-opacity-40">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-56 lg:mt-52 2xl:mt-72">
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-56 lg:mt-52 2xl:mt-72 z-40">
               <div className="bgDropShadow w-fit p-8">
                 <h1 className="text-white text-[50px] md:text-[57px] lg:text-[75px] 2xl:text-[80px] font-manrope font-semibold" data-aos="fade-up" data-aos-duration="1000">Early Bird</h1>
                 <p className="text-[#BBB9AF] text-[21px] lg:text-[25px] 2xl:text-[32px] font-inter mb-5" data-aos="fade-up" data-aos-duration="2000">Get the information you <br /> need, fast.</p>
