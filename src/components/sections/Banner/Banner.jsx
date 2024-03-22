@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
-// import videoBg from "@/assets/videos/Gold.mp4"
-// import videoBg from "@/assets/videos/first.mp4"
+import bannerBG from '@/assets/videos/bannerVideo.mp4';
 import Container from "../Container/Container";
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
@@ -25,8 +24,8 @@ const Banner = () => {
             muted
             autoPlay
             loop
-            src='https://res.cloudinary.com/dyzbg4knq/video/upload/v1710883064/d0eeieug64uzitiz703s.mp4'
-            // src={videoBg}
+            // src='https://res.cloudinary.com/dyzbg4knq/video/upload/v1710883064/d0eeieug64uzitiz703s.mp4'
+            src={bannerBG}
           ></video>
         </div>
 
