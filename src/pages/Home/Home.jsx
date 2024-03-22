@@ -8,7 +8,7 @@ import Appreciate from '@/components/sections/Appreciate/Appreciate';
 const Home = () => {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
       <About />
       <Features />
       <Tokenomics />
