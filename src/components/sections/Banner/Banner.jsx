@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import bannerBG from '@/assets/videos/bannerVideo.mp4';
+import bannerBG from '@/assets/videos/bannerVideo_1.mp4';
 import Container from "../Container/Container";
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
